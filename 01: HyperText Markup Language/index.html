@@ -1,9 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <!-- 
+    HEAD:
+    UTF-8 : tell about charchter incoding 
+    viewport: tell about device viewport, screen witdh according to device width
+    content: adjust width of device, default screen scale
+    title: page title.
+    link: favicon 
+    -->
+    <meta charset="UTF-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello</title>
+    <meta name="keywords" content="toyes, panda & many things"> 
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Doloribus ratione, minus aliquid expedita, soluta quos deserunt consectetur, sed quidem omnis mollitia voluptas recusandae. Minima, repellendus! Esse maiores autem perferendis cum.">
+    <link rel="shortcut icon" href="https://cdn4.iconfinder.com/data/icons/picons-social/57/38-instagram-2-512.png" type="image/x-icon">
+    <title>HyperText Markup Language</title>
 </head>
 <body>
     <!-- TEXT -->
@@ -39,5 +51,64 @@
         <a href="https://facebook.com" target="_blank">Facebook</a><br>
         <a href="https://instagram.com" target="_blank">Instagram</a><br>
         <a href="https://Youtube.com" target="_blank">Youtube</a><br>
+        <!-- MEDIA:-->
+            <!-- 
+            Images:
+                    atributes: 
+                    src - give file source to represent.
+                    alt - when internet is not avaible use this message.
+                    width, height: set image height & width   
+            -->
+        <img src="https://i.natgeofe.com/n/b194ff2c-6da2-4520-87a5-14d37f464a2e/2756317_4x3.jpg" alt="image not found." height="300"><br>
+        <img src="https://i.natgeofe.com/n/b194ff2c-6da2-4520-87a5-14d37f464a2e/2756317_4x3.jp" alt="image not found." height="400"><br>
+            <!-- 
+            Videos:
+                    atributes:
+                    autoplay : to play video automaticly by default.
+                    loop : video will be play in loop.
+                    mute: video will be muted by default.
+                    controls: give button like play pause
+            -->
+        <video src="video.mp4" height="200" autoplay controls loop mute></video><br>
+            <!-- 
+            Audios:
+                    atributes:
+                    src: specifies the path to the audio file.
+                    controls: adds audio controls, like play, pause, and volume.
+                    autoplay: automatically starts playing the audio when the page loads.
+                    loop: repeats the audio once it ends.
+                    muted: mutes the audio by default.
+                    preload: specifies if and how the audio should be loaded when the page loads ('auto', 'metadata', 'none').
+            -->
+        <audio src="video.mp4" height="200" autoplay controls loop mute></audio><br> 
+            <!--
+            ifram tag: embed external web content within a webpage.
+            -->
+        <iframe src="https://example.com" width="600" height="400" style="border: 2px solid black; border-radius: 10px;"></iframe>
+        <!-- FORMS:-->
+        <form action="#">
+            <input type="text" placeholder="enter name" required><br>
+            <input type="email" placeholder="enter email"><br>
+            <input type="password" placeholder="enter password"><br>
+            <input type="date" placeholder="#">
+            <input type="datetime-local" placeholder="#">
+            <br>
+            <input id="check" type="checkbox" placeholder="#">
+            <label for="check">agree, term & condition</label>
+            <br>
+            <input type="color" placeholder="#"><br>
+            <input type="number" placeholder="#"><br>
+            <input type="radio" name="gender">male
+            <input type="radio" name="gender">female
+            <input type="radio" name="gender">other
+            <button>Submit</button>
+        </form>
+        <!-- Details Tag: Create Drop Down Menu -->
+         <details>
+            <h1>Hi</h1>
+            <p>Hello</p>
+            <p>Hello</p>
+            <p>Hello</p>
+         </details>
 </body>
 </html>
