@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cascading Style Sheets</title>
+    <!-- linking external css file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Hello, I'm Suraj Kumar.</h1>
+    <h2 id="blue">I'm a mern developer.</h2>
+    <p id="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo error harum quibusdam earum distinctio
+        soluta placeat iste porro voluptas fugiat sint, maxime perspiciatis mollitia labore ipsum praesentium?
+        Voluptatem, possimus reiciendis!</p>
+    <!-- TEXT -->
+    <!-- HEADINGS -->
+    <h1>Hello</h1>
+    <h2>Hello</h2>
+    <h3>Hello</h3>
+    <h4>Hello</h4>
+    <h5>Hello</h5>
+    <h6>Hello</h6>
+    <!-- PARAGRAPH -->
+    <p class="what">Lorem ipsum dolor sit amet <b>consectetur</b>, adipisicing elit. Doloribus ratione, minus aliquid
+        expedita, soluta quos deserunt consectetur, sed quidem omnis mollitia voluptas recusandae. Minima, repellendus!
+        Esse maiores autem perferendis cum.</p>
+    <p>Lorem ipsum dolor sit amet <i>consectetur</i>, adipisicing elit. Doloribus ratione, minus aliquid expedita,
+        soluta quos deserunt consectetur, sed quidem omnis mollitia voluptas recusandae. Minima, repellendus! Esse
+        maiores autem perferendis cum.</p>
+    <p>Lorem ipsum dolor sit amet <u>consectetur</u>, adipisicing elit. Doloribus ratione, minus aliquid expedita,
+        soluta quos deserunt consectetur, sed quidem omnis mollitia voluptas recusandae. Minima, repellendus! Esse
+        maiores autem perferendis cum.</p>
+    <p>2<sup>2</sup> = 4 </p>
+    <p>H<sub>2</sub>O</p>
+    <p>log<sub>10</sub> = 1</p>
+    <!-- LIST -->
+    <ul>
+        <li class="what">Text
+            <ol>
+                <li>Heading</li>
+                <li>Paragraph</li>
+                <li>Bold, Italic, Underline</li>
+                <li>Sup, Sub,</li>
+                <li>Lorem Lipsum</li>
+                <li>Anchor</li>
+            </ol>
+        </li>
+    </ul>
+    <!-- Anchor (HyperLink) -->
+    <a class="what" href="https://google.com" target="_blank">Google</a><br>
+    <a href="https://facebook.com" target="_blank">Facebook</a><br>
+    <a href="https://instagram.com" target="_blank">Instagram</a><br>
+    <a href="https://Youtube.com" target="_blank">Youtube</a><br>
+    <!-- MEDIA:-->
+    <!-- 
+            Images:
+                    atributes: 
+                    src - give file source to represent.
+                    alt - when internet is not avaible use this message.
+                    width, height: set image height & width   
+            -->
+    <img src="https://i.natgeofe.com/n/b194ff2c-6da2-4520-87a5-14d37f464a2e/2756317_4x3.jpg" alt="image not found."
+        height="300"><br>
+    <img src="https://i.natgeofe.com/n/b194ff2c-6da2-4520-87a5-14d37f464a2e/2756317_4x3.jp" alt="image not found."
+        height="400"><br>
+    <!-- 
+            Videos:
+                    atributes:
+                    autoplay : to play video automaticly by default.
+                    loop : video will be play in loop.
+                    mute: video will be muted by default.
+                    controls: give button like play pause
+            -->
+    <video src="video.mp4" height="200" autoplay controls loop mute></video><br>
+    <!-- 
+            Audios:
+                    atributes:
+                    src: specifies the path to the audio file.
+                    controls: adds audio controls, like play, pause, and volume.
+                    autoplay: automatically starts playing the audio when the page loads.
+                    loop: repeats the audio once it ends.
+                    muted: mutes the audio by default.
+                    preload: specifies if and how the audio should be loaded when the page loads ('auto', 'metadata', 'none').
+            -->
+    <audio src="video.mp4" height="200" autoplay controls loop mute></audio><br>
+    <!--
+            ifram tag: embed external web content within a webpage.
+            -->
+    <iframe src="https://example.com" width="600" height="400"
+        style="border: 2px solid black; border-radius: 10px;"></iframe>
+    <!-- FORMS:-->
+    <form action="#">
+        <input type="text" placeholder="enter name" required><br>
+        <input type="email" placeholder="enter email"><br>
+        <input type="password" placeholder="enter password"><br>
+        <input type="date" placeholder="#">
+        <input type="datetime-local" placeholder="#">
+        <br>
+        <input id="check" type="checkbox" placeholder="#">
+        <label for="check">agree, term & condition</label>
+        <br>
+        <input type="color" placeholder="#"><br>
+        <input type="number" placeholder="#"><br>
+        <input type="radio" name="gender">male
+        <input type="radio" name="gender">female
+        <input type="radio" name="gender">other
+        <button>Submit</button>
+    </form>
+    <!-- Details Tag: Create Drop Down Menu -->
+    <details>
+        <h1>Hi</h1>
+        <p>Hello</p>
+        <p>Hello</p>
+        <p>Hello</p>
+    </details>
+    <!-- Div: Container -->
+    <div class="container">
+        <h1>Welcome to my website</h1>
+        <p>This is some content within the container.</p>
+        <div class="inner-box">
+            <p>More content in an inner div.</p>
+        </div>
+    </div>
+</body>
+
+</html>

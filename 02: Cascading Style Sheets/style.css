@@ -1,0 +1,59 @@
+/* Boiler Plate (key:pair;) */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+/* Text */
+h1 {
+    color: white;
+    background-color: black;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    font-style: italic;
+    text-align: justify;
+    text-transform: lowercase;
+}
+
+/* ID : Unique Only One in Whole File */
+#blue {
+    color: blue;
+}
+
+#content {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Class : Group of Element */
+.what {
+    background: rebeccapurple;
+    color: white;
+}
+
+/* add custom font */
+@font-face {
+    font-family: "MyCustomFont";
+    /* Defines a name for the font */
+    src: url("/fonts/MyCustomFont.woff2") format("woff2"),
+        /* Specifies the font file location and format */
+        url("/fonts/MyCustomFont.woff") format("woff");
+    font-weight: normal;
+    /* Optional: Defines the font's weight */
+    font-style: normal;
+    /* Optional: Defines the font's style (e.g., italic) */
+}
+
+/*  div : contianer */
+div{
+    height: 200px;
+    width: 300px;
+    background-color: red;
+}
