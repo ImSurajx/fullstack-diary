@@ -1,0 +1,273 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background: whitesmoke;
+}
+
+/* Header Section */
+.container-x {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+}
+
+.header {
+    margin-top: 10px;
+    width: 75%;
+    height: 350px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.profile-pic img {
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #fff;
+}
+
+.text-header {
+    text-align: center;
+    margin: 100px;
+}
+
+.text-header h1 {
+    font-size: 70px;
+}
+
+.text-header p {
+    font-size: 18px;
+}
+
+/* Contianer 1 */
+.container-one {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.about-me {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 200px;
+    width: 80%;
+    padding: 50px;
+    text-align: center;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+.about-me h1 {
+    font-size: 30px;
+}
+
+.about-me p {
+    font-size: 18px;
+}
+
+/* Education Section */
+.container-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.edu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 260px;
+    width: 80%;
+    padding: 50px;
+    text-align: center;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+.edu h1 {
+    font-size: 30px;
+}
+
+.edu p {
+    font-size: 18px;
+}
+
+.edu1 {
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Skill Section */
+.container-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.skills {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 400px;
+    width: 80%;
+    padding: 50px;
+    text-align: center;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+.skills h1 {
+    font-size: 30px;
+}
+
+.skills p {
+    font-size: 18px;
+}
+
+.skill1 {
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Project Section */
+.container-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 400px;
+    width: 80%;
+    padding: 50px;
+    text-align: center;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+.projects h1 {
+    font-size: 30px;
+}
+
+.projects p {
+    font-size: 15px;
+}
+
+.pro1 {
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.pro1 p a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+}
+
+/* Contact Me */
+.container-five {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 300px;
+    width: 80%;
+    padding: 50px;
+    text-align: center;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact h1 {
+    font-size: 30px;
+}
+
+.contact p {
+    font-size: 15px;
+}
+
+.con1 {
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.con1 p a {
+    color: #fff;
+    text-decoration: none;
+    font-style: italic;
+}
+
+.container-six{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.footer{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 75%;
+    height: 60px;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
